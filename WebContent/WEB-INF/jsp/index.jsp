@@ -94,17 +94,17 @@
 							<tr>
 								<td>
 									<a href="#">
-										<c:out value="${item.student_id}" />
+										<c:out value="${item.STUDENT_ID}" />
 									</a>
 								</td>
 								<td>
-									<c:out value="${item.student_name}" />
+									<c:out value="${item.STUDENT_NAME}" />
 								</td>
 								<td>
-									<c:out value="${item.student_age}" />
+									<c:out value="${item.STUDENT_AGE}" />
 								</td>
 								<td>
-									<c:out value="${item.student_address}" />
+									<c:out value="${item.STUDENT_ADDRESS}" />
 								</td>
 							</tr>
 						</c:forEach>
